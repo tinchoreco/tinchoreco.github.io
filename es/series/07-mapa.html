@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>El mapa completo | Martín Nardelli</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,400;0,600;1,400&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../../css/style.css">
+    <link rel="stylesheet" href="../../css/article.css">
+</head>
+<body>
+    <nav class="nav">
+        <div class="nav-container">
+            <a href="../index.html" class="nav-logo">MN</a>
+            <ul class="nav-links">
+                <li><a href="../index.html#investigacion">Investigación</a></li>
+                <li><a href="../index.html#papers">Papers</a></li>
+                <li><a href="../index.html#articulos">Artículos</a></li>
+                <li><a href="../index.html#contacto">Contacto</a></li>
+                <li class="lang-switch"><a href="../../series/07-map.html">EN</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <article class="article">
+        <header class="article-header">
+            <div class="container">
+                <a href="../index.html#articulos" class="back-link">← Volver a artículos</a>
+                <div class="series-badge">Serie: La Economía como Computación · Artículo 7 de 7</div>
+                <h1 class="article-title">El mapa completo</h1>
+                <p class="article-subtitle">Cómo encajan las piezas</p>
+                <div class="article-meta">
+                    <span class="article-date">Febrero 2026</span>
+                    <span class="article-reading">10 min de lectura</span>
+                </div>
+            </div>
+        </header>
+
+        <div class="article-content">
+            <div class="container">
+                <p class="article-lead">A lo largo de esta serie hemos recorrido un camino que va desde cómo dos agentes deciden cooperar hasta por qué la economía global es fundamentalmente impredecible. Veamos cómo encajan las piezas.</p>
+
+                <h2>El ladrillo: el dilema del prisionero</h2>
+
+                <p>Todo empieza con el juego más simple: dos agentes eligiendo cooperar o defectar. Añadimos paciencia endógena (derivada de creencias bayesianas y aversión al riesgo) y dinámica de gradiente. Un parámetro, c₁ = T + S − R − P, clasifica todo:</p>
+
+                <ul style="margin-left: 2rem; margin-bottom: 1.5rem;">
+                    <li><strong>c₁ > 0</strong>: potencial convexo → equilibrio único → transición suave → dinámica predecible.</li>
+                    <li><strong>c₁ < 0</strong>: potencial cóncavo → múltiples equilibrios → histéresis → Turing completo.</li>
+                    <li><strong>c₁ = 0</strong>: punto tricrítico → lógica combinacional → frontera computacional.</li>
+                </ul>
+
+                <h2>La construcción: de gates a computación universal</h2>
+
+                <p>Con c₁ < 0, los agentes van a las esquinas (0 o 1). El valor de τ determina qué función lógica implementa cada agente: AND, NOT, cables, o memoria. La heterogeneidad de incertidumbre en la población genera diversidad de gates. Juntos, forman una computadora universal — sin diseñador.</p>
+
+                <h2>La economía: de Turing a Chaitin</h2>
+
+                <p>El marco TWC extiende esto a toda la economía. Los bienes son cadenas de bits, las tecnologías son programas. El número de tecnologías viables H(n) crece supercomputacionalmente — más rápido que cualquier función calculable. El residuo de Solow es el crecimiento de Ωₙ. Y la frontera tecnológica es siempre un paso adelante de lo que se puede computar: estando en Ωₙ, el equilibrio de Ωₙ₊₁ es indecidible.</p>
+
+                <h2>La división del trabajo</h2>
+
+                <p>Adam Smith observó que la especialización produce rendimientos más que proporcionales. Nuestro marco lo formaliza: combinar el conocimiento de k individuos con complejidad n₀ da acceso a tecnologías de complejidad k·n₀, cuyo número supera por un factor ilimitado a k veces las tecnologías individuales:</p>
+
+                <p style="text-align: center; font-family: var(--font-mono); font-size: 1.1rem; margin: 2rem 0;"><strong>k·H(n₀) ≪ H(k·n₀)</strong></p>
+
+                <p>Los rendimientos de la cooperación son supercomputacionales.</p>
+
+                <h2>La cadena causal</h2>
+
+                <p style="font-family: var(--font-mono); font-size: 0.95rem; background: var(--color-bg-alt); padding: 1.5rem; margin: 1.5rem 0;">
+                c₁ < 0 → Potencial cóncavo → Bistabilidad + Gates lógicos → Turing completitud<br><br>
+                Turing completitud → H(n) incomputable → Ωₙ₊₁ indecidible → Crecimiento supercomputacional
+                </p>
+
+                <p><strong>Cada flecha es un teorema demostrado formalmente.</strong></p>
+
+                <h2>¿Qué significa para la economía como disciplina?</h2>
+
+                <p><strong>Primero</strong>, que la economía neoclásica no está "equivocada": es correcta dentro de su dominio (c₁ > 0). Pero su dominio es más limitado de lo que se cree.</p>
+
+                <p><strong>Segundo</strong>, que fuera de ese dominio no existe un "mejor modelo". La impredecibilidad no es un problema a resolver — es una propiedad matemática del sistema. Ningún modelo, por sofisticado que sea, puede predecir a largo plazo una economía Turing completa.</p>
+
+                <p><strong>Tercero</strong>, que esto no es nihilismo. Sabemos exactamente cuándo la economía es predecible y cuándo no: c₁ nos lo dice. Y sabemos qué políticas pueden mover el sistema entre regímenes. La economía no necesita mejores modelos de equilibrio: necesita entender los límites fundamentales de la predicción — y trabajar con ellos.</p>
+
+                <div class="highlight-box">
+                    <p><strong>La idea central, en una línea:</strong></p>
+                    <p style="font-size: 1.2rem; margin-bottom: 0;">La economía es un sistema computacional cuyos límites son los límites de la computación misma.</p>
+                </div>
+
+                <div class="series-nav">
+                    <a href="06-evidencia.html" class="series-nav-prev">← Anterior: La evidencia empírica</a>
+                    <span class="series-nav-next"></span>
+                </div>
+
+                <div class="article-footer">
+                    <p><em>Martín Nicolás Nardelli es investigador independiente en Reconquista, Santa Fe, Argentina. Su trabajo desarrolla el marco Turing–Walras–Chaitin (TWC), una teoría computacional de la economía. Contacto: martin_nardelli@hotmail.com</em></p>
+                </div>
+            </div>
+        </div>
+    </article>
+
+    <footer class="footer">
+        <div class="container">
+            <p>© 2026 Martín Nicolás Nardelli</p>
+        </div>
+    </footer>
+</body>
+</html>

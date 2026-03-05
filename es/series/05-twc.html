@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bienes, tecnologías y la constante de Chaitin | Martín Nardelli</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,400;0,600;1,400&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../../css/style.css">
+    <link rel="stylesheet" href="../../css/article.css">
+</head>
+<body>
+    <nav class="nav">
+        <div class="nav-container">
+            <a href="../index.html" class="nav-logo">MN</a>
+            <ul class="nav-links">
+                <li><a href="../index.html#investigacion">Investigación</a></li>
+                <li><a href="../index.html#papers">Papers</a></li>
+                <li><a href="../index.html#articulos">Artículos</a></li>
+                <li><a href="../index.html#contacto">Contacto</a></li>
+                <li class="lang-switch"><a href="../../series/05-twc.html">EN</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <article class="article">
+        <header class="article-header">
+            <div class="container">
+                <a href="../index.html#articulos" class="back-link">← Volver a artículos</a>
+                <div class="series-badge">Serie: La Economía como Computación · Artículo 5 de 7</div>
+                <h1 class="article-title">Bienes, tecnologías y la constante de Chaitin</h1>
+                <p class="article-subtitle">El marco Turing-Walras-Chaitin</p>
+                <div class="article-meta">
+                    <span class="article-date">Febrero 2026</span>
+                    <span class="article-reading">10 min de lectura</span>
+                </div>
+            </div>
+        </header>
+
+        <div class="article-content">
+            <div class="container">
+                <p class="article-lead">Los artículos anteriores mostraron que las interacciones estratégicas entre agentes adaptativos pueden ser computacionalmente universales. Ahora subimos de escala: ¿qué pasa cuando modelamos la economía entera como un sistema computacional?</p>
+
+                <p>El marco Turing-Walras-Chaitin (TWC) propone tres correspondencias formales:</p>
+
+                <h2>Los bienes son cadenas de bits</h2>
+
+                <p>Un automóvil, un medicamento, un software — todos pueden representarse como secuencias finitas de información. No es una metáfora: la teoría de la información de Shannon garantiza que cualquier objeto especificable admite una codificación digital finita. El valor, por supuesto, no está en los bits sino en la utilidad del consumidor — pero la especificación del bien sí es una cadena de bits.</p>
+
+                <h2>Las tecnologías son máquinas de Turing</h2>
+
+                <p>Una tecnología es un programa que toma insumos y produce bienes. Inventar una nueva tecnología es descubrir un nuevo programa que se detiene — que produce output. La complejidad de una tecnología es la longitud de su descripción mínima (su complejidad de Kolmogorov).</p>
+
+                <h2>La frontera tecnológica es Ωₙ</h2>
+
+                <p>Gregory Chaitin, matemático argentino-estadounidense, definió un número Ω que codifica la probabilidad de que un programa aleatorio se detenga. Definimos Ωₙ como la versión truncada: la suma de probabilidades de los programas que se detienen con longitud hasta n. En nuestra interpretación, <strong>Ωₙ cuantifica el conocimiento tecnológico efectivamente descubierto</strong>. El residuo de Solow — la parte del crecimiento económico que no se explica por acumulación de capital ni trabajo — es, en nuestro marco, el crecimiento de Ωₙ.</p>
+
+                <h2>Los dos resultados centrales</h2>
+
+                <p><strong>Primero</strong>, para cada nivel de frontera n, el equilibrio competitivo existe, es estable, y se puede computar — es una economía Arrow-Debreu estándar con bienes y tecnologías finitos. Pero — y aquí está el resultado profundo — estando en Ωₙ, no es posible computar el equilibrio de Ωₙ₊₁. ¿Por qué? Porque para conocer el equilibrio del siguiente nivel, necesitarías saber qué programas nuevos de longitud n+1 se detienen. Y eso es exactamente el problema de la parada de Turing, que es indecidible. <strong>La economía siempre puede entender su presente, pero nunca puede predecir su próximo paso tecnológico.</strong></p>
+
+                <p><strong>Segundo</strong>, el crecimiento es supercomputacional. El número de tecnologías viables H(n) = |Ťₙ| crece más rápido que cualquier función computable. Esto no requiere preferencias Dixit-Stiglitz: basta con una propiedad mínima llamada "monotonía de variedad": que tener acceso a más bienes sea estrictamente preferido.</p>
+
+                <p>La implicación práctica es que <strong>cualquier pronóstico económico a largo plazo necesariamente subestima el crecimiento</strong>, porque cualquier modelo computable es eventualmente superado por una economía que descubre tecnologías. Esto explica la forma de "palo de hockey" de la historia económica: milenios de estancamiento seguidos de crecimiento explosivo.</p>
+
+                <div class="series-nav">
+                    <a href="04-computadora.html" class="series-nav-prev">← Anterior: El dilema como computadora</a>
+                    <a href="06-evidencia.html" class="series-nav-next">Siguiente: La evidencia empírica →</a>
+                </div>
+
+                <div class="article-footer">
+                    <p><em>Martín Nicolás Nardelli es investigador independiente en Reconquista, Santa Fe, Argentina. Su trabajo desarrolla el marco Turing–Walras–Chaitin (TWC), una teoría computacional de la economía. Contacto: martin_nardelli@hotmail.com</em></p>
+                </div>
+            </div>
+        </div>
+    </article>
+
+    <footer class="footer">
+        <div class="container">
+            <p>© 2026 Martín Nicolás Nardelli</p>
+        </div>
+    </footer>
+</body>
+</html>

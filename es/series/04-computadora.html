@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>El dilema del prisionero como computadora | Martín Nardelli</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,400;0,600;1,400&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../../css/style.css">
+    <link rel="stylesheet" href="../../css/article.css">
+</head>
+<body>
+    <nav class="nav">
+        <div class="nav-container">
+            <a href="../index.html" class="nav-logo">MN</a>
+            <ul class="nav-links">
+                <li><a href="../index.html#investigacion">Investigación</a></li>
+                <li><a href="../index.html#papers">Papers</a></li>
+                <li><a href="../index.html#articulos">Artículos</a></li>
+                <li><a href="../index.html#contacto">Contacto</a></li>
+                <li class="lang-switch"><a href="../../series/04-computer.html">EN</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <article class="article">
+        <header class="article-header">
+            <div class="container">
+                <a href="../index.html#articulos" class="back-link">← Volver a artículos</a>
+                <div class="series-badge">Serie: La Economía como Computación · Artículo 4 de 7</div>
+                <h1 class="article-title">El dilema del prisionero como computadora</h1>
+                <p class="article-subtitle">Cómo las interacciones estratégicas pueden calcular cualquier cosa</p>
+                <div class="article-meta">
+                    <span class="article-date">Febrero 2026</span>
+                    <span class="article-reading">8 min de lectura</span>
+                </div>
+            </div>
+        </header>
+
+        <div class="article-content">
+            <div class="container">
+                <p class="article-lead">En 1936, Alan Turing imaginó una máquina abstracta: una cinta infinita dividida en celdas, un cabezal que lee y escribe, y un conjunto de reglas. Demostró que esta máquina simple puede calcular cualquier cosa que sea calculable. Toda computadora moderna es equivalente a la máquina de Turing.</p>
+
+                <p>Para ser una computadora universal, un sistema necesita tres cosas: puertas lógicas (operaciones como AND y NOT), cables (para transmitir señales), y memoria (para almacenar resultados intermedios).</p>
+
+                <h2>El dilema tiene los tres ingredientes</h2>
+
+                <p>Nuestro resultado demuestra que cuando c₁ < 0, el dilema del prisionero tiene exactamente estos tres ingredientes. La clave es que la concavidad del potencial empuja a los agentes a las "esquinas": cooperación total (1) o defección total (0). Su comportamiento se vuelve binario, como los bits de una computadora.</p>
+
+                <p>El peso de anticipación τ — que es endógeno, determinado por la incertidumbre local — controla qué función lógica implementa cada agente:</p>
+
+                <ul style="margin-left: 2rem; margin-bottom: 1.5rem;">
+                    <li>Un agente con τ bajo (muy miope) requiere que todos sus vecinos cooperen para cooperar él — esto es una <strong>puerta AND</strong>.</li>
+                    <li>Un agente con pesos negativos implementa una <strong>puerta NOT</strong>.</li>
+                    <li>Dos agentes acoplados en la zona de histéresis forman una <strong>memoria</strong>: ambos cooperan o ambos defectan, y el estado persiste indefinidamente.</li>
+                </ul>
+
+                <h2>Orden emergente sin diseñador</h2>
+
+                <p>Ningún diseñador configura estas puertas lógicas. Los pesos de los agentes emergen de la optimización descentralizada de pagos. La computación surge espontáneamente de la interacción estratégica, como los precios surgen del mercado. En la tradición de Hayek: <strong>el orden computacional emerge sin un planificador</strong>.</p>
+
+                <p>Y el resultado es preciso: el dilema del prisionero es Turing completo si y solo si c₁ < 0. Cuando c₁ > 0, el potencial convexo garantiza un único atractor — el sistema es demasiado "ordenado" para computar. Cuando c₁ = 0, hay lógica combinacional pero sin memoria. Solo con c₁ < 0 coexisten la diversidad lógica y la memoria persistente que la computación universal requiere.</p>
+
+                <div class="series-nav">
+                    <a href="03-concavidad.html" class="series-nav-prev">← Anterior: ¿Qué es la concavidad?</a>
+                    <a href="05-twc.html" class="series-nav-next">Siguiente: Bienes, tecnologías y Chaitin →</a>
+                </div>
+
+                <div class="article-footer">
+                    <p><em>Martín Nicolás Nardelli es investigador independiente en Reconquista, Santa Fe, Argentina. Su trabajo desarrolla el marco Turing–Walras–Chaitin (TWC), una teoría computacional de la economía. Contacto: martin_nardelli@hotmail.com</em></p>
+                </div>
+            </div>
+        </div>
+    </article>
+
+    <footer class="footer">
+        <div class="container">
+            <p>© 2026 Martín Nicolás Nardelli</p>
+        </div>
+    </footer>
+</body>
+</html>

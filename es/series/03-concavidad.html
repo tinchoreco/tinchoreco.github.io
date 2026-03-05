@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>¿Qué es la concavidad y por qué importa? | Martín Nardelli</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,400;0,600;1,400&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../../css/style.css">
+    <link rel="stylesheet" href="../../css/article.css">
+</head>
+<body>
+    <nav class="nav">
+        <div class="nav-container">
+            <a href="../index.html" class="nav-logo">MN</a>
+            <ul class="nav-links">
+                <li><a href="../index.html#investigacion">Investigación</a></li>
+                <li><a href="../index.html#papers">Papers</a></li>
+                <li><a href="../index.html#articulos">Artículos</a></li>
+                <li><a href="../index.html#contacto">Contacto</a></li>
+                <li class="lang-switch"><a href="../../series/03-concavity.html">EN</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <article class="article">
+        <header class="article-header">
+            <div class="container">
+                <a href="../index.html#articulos" class="back-link">← Volver a artículos</a>
+                <div class="series-badge">Serie: La Economía como Computación · Artículo 3 de 7</div>
+                <h1 class="article-title">¿Qué es la concavidad y por qué importa?</h1>
+                <p class="article-subtitle">El supuesto oculto de toda la teoría económica</p>
+                <div class="article-meta">
+                    <span class="article-date">Febrero 2026</span>
+                    <span class="article-reading">7 min de lectura</span>
+                </div>
+            </div>
+        </header>
+
+        <div class="article-content">
+            <div class="container">
+                <p class="article-lead">Abra cualquier libro de texto de microeconomía y encontrará un supuesto que aparece en casi todas las páginas: la concavidad. Las funciones de utilidad son cóncavas (utilidad marginal decreciente). Las funciones de producción son cóncavas (rendimientos decrecientes a escala). Las funciones de beneficio son cóncavas en las decisiones de la firma.</p>
+
+                <p>¿Por qué? La justificación estándar es empírica: la primera rebanada de pizza da más placer que la décima. El primer trabajador contratado produce más que el centésimo. Pero esto no es universal. Las redes sociales, la investigación científica, y la tecnología digital exhiben rendimientos crecientes — no decrecientes.</p>
+
+                <h2>La verdadera razón</h2>
+
+                <p>Nuestro resultado proporciona una explicación diferente: <strong>la concavidad se asume porque sin ella, el análisis de equilibrio es imposible</strong>. No difícil — imposible, en el sentido matemático riguroso de la palabra.</p>
+
+                <p>En nuestro modelo, la concavidad del potencial de Lyapunov está determinada por el parámetro c₁ de los pagos del juego. Cuando c₁ > 0, el potencial es convexo: un único equilibrio, convergencia global, todo predecible. Cuando c₁ < 0, el potencial es cóncavo: múltiples equilibrios, histéresis, dependencia de la historia.</p>
+
+                <h2>El resultado crucial</h2>
+
+                <p>Demostramos que en el régimen c₁ < 0, las dinámicas son <strong>Turing completas</strong>: pueden implementar cualquier cálculo, incluyendo cálculos indecidibles. Ningún algoritmo puede predecir el comportamiento a largo plazo del sistema.</p>
+
+                <p>Y crucialmente, esto se demuestra sin supuestos exóticos: pagos bilineales estándar, aprendizaje bayesiano, dinámica de gradiente. Lo único que cambia es el signo de c₁.</p>
+
+                <p>Esto no es una crítica desde fuera de la economía. Usamos las mismas herramientas que la teoría neoclásica. Lo que mostramos es que dentro de ese marco, <strong>cambiar el signo de un único parámetro cruza la frontera entre lo computable y lo incomputable</strong>.</p>
+
+                <p>La concavidad no es un hecho empírico sobre la economía: es la condición necesaria para que el análisis de equilibrio funcione.</p>
+
+                <div class="series-nav">
+                    <a href="02-dos-tipos.html" class="series-nav-prev">← Anterior: Dos tipos de cooperación</a>
+                    <a href="04-computadora.html" class="series-nav-next">Siguiente: El dilema como computadora →</a>
+                </div>
+
+                <div class="article-footer">
+                    <p><em>Martín Nicolás Nardelli es investigador independiente en Reconquista, Santa Fe, Argentina. Su trabajo desarrolla el marco Turing–Walras–Chaitin (TWC), una teoría computacional de la economía. Contacto: martin_nardelli@hotmail.com</em></p>
+                </div>
+            </div>
+        </div>
+    </article>
+
+    <footer class="footer">
+        <div class="container">
+            <p>© 2026 Martín Nicolás Nardelli</p>
+        </div>
+    </footer>
+</body>
+</html>
