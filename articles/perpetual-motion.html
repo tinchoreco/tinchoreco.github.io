@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wall Street's Perpetual Motion Machine | Martín Nardelli</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,400;0,600;1,400&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/article.css">
+</head>
+<body>
+    <nav class="nav">
+        <div class="nav-container">
+            <a href="../index.html" class="nav-logo">MN</a>
+            <ul class="nav-links">
+                <li><a href="../index.html#research">Research</a></li>
+                <li><a href="../index.html#papers">Papers</a></li>
+                <li><a href="../index.html#articles">Articles</a></li>
+                <li><a href="../index.html#contact">Contact</a></li>
+                <li class="lang-switch"><a href="../es/articles/movimiento-perpetuo.html">ES</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <article class="article">
+        <header class="article-header">
+            <div class="container">
+                <a href="../index.html#articles" class="back-link">← Back to articles</a>
+                <h1 class="article-title">Wall Street's Perpetual Motion Machine</h1>
+                <div class="article-meta">
+                    <span class="article-date">February 2026</span>
+                    <span class="article-reading">14 min read</span>
+                </div>
+            </div>
+        </header>
+
+        <div class="article-content">
+            <div class="container">
+                <p class="article-lead">For decades, the world's most brilliant physicists and mathematicians have migrated to Wall Street with an implicit promise: that their models can predict the market. They build high-frequency trading algorithms, design quantitative strategies, calibrate stochastic models with millisecond data. Some make fortunes. But none has managed to build a machine that beats the market systematically and indefinitely.</p>
+
+                <p>The usual explanation is the efficient market hypothesis: prices already incorporate all available information, so there's nothing left to exploit. But this explanation is unsatisfying—it's a postulate, not a proof. Why do prices incorporate all information? What mechanism guarantees it? And why, if markets are so efficient, do they suffer spectacular crashes that no Gaussian model predicts?</p>
+
+                <p>The computational theory of economics offers a deeper answer to both questions—the impossibility of systematic arbitrage and the inevitability of crashes—and it turns out both have the same root.</p>
+
+                <h2>Why Crashes Are Inevitable</h2>
+
+                <p>Standard financial models—from Black-Scholes to random walks—assume that price fluctuations follow a normal distribution: the Gaussian bell curve. Under this hypothesis, extreme events are fantastically improbable. A ten-standard-deviation move should occur once every several billion years. In practice, it occurs every few years.</p>
+
+                <p>Benoit Mandelbrot documented this phenomenon in 1963: financial fluctuations have <em>heavy tails</em>. Extreme events are far more frequent than the Gaussian bell predicts. But Mandelbrot described the phenomenon without explaining its cause. Why are the tails heavy?</p>
+
+                <p>In the Turing–Walras–Chaitin framework, the answer emerges naturally from the computational structure of production. Asset prices reflect expectations about companies' future productive capacity. That capacity depends on the technologies companies know—their programs, in TWC language.</p>
+
+                <p>Not all discoveries are equal. The vast majority are incremental improvements. These generate small fluctuations. But occasionally, someone discovers something radically better: a program in a distant region of technology space that changes the rules of the game. The transistor. The internet. Artificial intelligence.</p>
+
+                <p>These radical discoveries are rare but their impact is disproportionate, because combining a new program with existing knowledge generates returns that grow faster than any computable function.</p>
+
+                <p><strong>Heavy tails are not an anomaly. They are a consequence of the combinatorial structure of technology space.</strong></p>
+
+                <h2>The Perpetual Motion Machine</h2>
+
+                <p>Now comes the question that really matters: can one build an algorithm that beats the market systematically?</p>
+
+                <p>The short answer is no, and the reason is the same as why you cannot build a perpetual motion machine.</p>
+
+                <p>A second-type perpetual motion machine is a device that converts heat into work with 100% efficiency, without losses. It doesn't violate energy conservation (first principle)—it doesn't create energy from nothing. But it violates the second principle: it extracts useful work from a system in equilibrium without dissipating anything. Carnot proved it's impossible.</p>
+
+                <p><strong>An algorithm that beats the market systematically is exactly this: a second-type perpetual motion machine applied to information.</strong></p>
+
+                <p>The argument is as follows. To beat the market, the algorithm needs to predict price movements better than the rest of the market. Price movements reflect technological discoveries—changes in companies' production costs. Predicting these discoveries requires anticipating which programs will be successful before they are executed.</p>
+
+                <p>But anticipating which programs halt and produce useful results is the halting problem—the undecidable problem that Alan Turing proved unsolvable in 1936. If an algorithm could predict prices systematically, it would be implicitly computing information about program space that is fundamentally incomputable.</p>
+
+                <p>This is stronger than the efficient market hypothesis. The EMH says prices incorporate <em>available</em> information. The computational argument says the relevant information—the structure of program space—is not merely unavailable but <em>incomputable</em>.</p>
+
+                <h2>What Is Possible</h2>
+
+                <p>This doesn't say no one can ever beat the market. It says no one can beat it <em>systematically and without limit</em>. The distinction is crucial.</p>
+
+                <p>A firm that discovers a better program has transitory information it can exploit. It knows something the market doesn't yet know. This advantage is real and can generate profits. But it's temporary: when the firm starts producing and selling, the market observes the change in supply, the price adjusts, and the advantage dissipates.</p>
+
+                <p>What cannot exist is an algorithm that generates positive expected profits for every time horizon, without the profit converging to zero.</p>
+
+                <h2>Carnot's Lesson for Markets</h2>
+
+                <p>Sadi Carnot didn't prove that heat engines are useless. He proved they have an efficiency limit, and that understanding that limit allows us to design better engines.</p>
+
+                <p>The lesson for financial markets is analogous. You cannot build a perpetual arbitrage machine. But you can understand the structure of inefficiency—where algorithmic rents come from, how discoveries are distributed, why tails are heavy—and operate with that understanding.</p>
+
+                <p>The trader who understands the computational structure of the market doesn't try to build a perpetual motion machine. They understand that trading profits are like the work of a heat engine: possible but limited, transitory, and subject to a maximum yield that cannot be exceeded.</p>
+
+                <p>And above all, they understand that whoever promises an algorithm that beats the market forever is promising the same thing as whoever promises a perpetual motion machine: something that violates a law of nature.</p>
+
+                <div class="article-footer">
+                    <p><em>Martín Nicolás Nardelli is an independent researcher in Reconquista, Santa Fe, Argentina. His work develops the Turing–Walras–Chaitin (TWC) framework, a computational theory of economics. Contact: martin_nardelli@hotmail.com</em></p>
+                </div>
+            </div>
+        </div>
+    </article>
+
+    <footer class="footer">
+        <div class="container">
+            <p>© 2026 Martín Nicolás Nardelli</p>
+        </div>
+    </footer>
+</body>
+</html>

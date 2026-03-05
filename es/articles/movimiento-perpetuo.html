@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La máquina de movimiento perpetuo de Wall Street | Martín Nardelli</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,400;0,600;1,400&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../../css/style.css">
+    <link rel="stylesheet" href="../../css/article.css">
+</head>
+<body>
+    <nav class="nav">
+        <div class="nav-container">
+            <a href="../index.html" class="nav-logo">MN</a>
+            <ul class="nav-links">
+                <li><a href="../index.html#investigacion">Investigación</a></li>
+                <li><a href="../index.html#papers">Papers</a></li>
+                <li><a href="../index.html#articulos">Artículos</a></li>
+                <li><a href="../index.html#contacto">Contacto</a></li>
+                <li class="lang-switch"><a href="../../articles/perpetual-motion.html">EN</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <article class="article">
+        <header class="article-header">
+            <div class="container">
+                <a href="../index.html#articulos" class="back-link">← Volver a artículos</a>
+                <h1 class="article-title">La máquina de movimiento perpetuo de Wall Street</h1>
+                <div class="article-meta">
+                    <span class="article-date">Febrero 2026</span>
+                    <span class="article-reading">14 min de lectura</span>
+                </div>
+            </div>
+        </header>
+
+        <div class="article-content">
+            <div class="container">
+                <p class="article-lead">Durante décadas, los físicos y matemáticos más brillantes del mundo han migrado a Wall Street con una promesa implícita: que sus modelos pueden predecir el mercado. Construyen algoritmos de trading de alta frecuencia, diseñan estrategias cuantitativas, calibran modelos estocásticos con datos de milisegundos. Algunos ganan fortunas. Pero ninguno ha logrado construir una máquina que le gane al mercado de forma sistemática e indefinida.</p>
+
+                <p>La explicación habitual es la hipótesis del mercado eficiente: los precios ya incorporan toda la información disponible, así que no queda nada que explotar. Pero esta explicación es insatisfactoria — es un postulado, no una demostración. ¿Por qué los precios incorporan toda la información? ¿Qué mecanismo lo garantiza? ¿Y por qué, si los mercados son tan eficientes, sufren crashes espectaculares que ningún modelo gaussiano predice?</p>
+
+                <p>La teoría computacional de la economía ofrece una respuesta más profunda a ambas preguntas — la imposibilidad del arbitraje sistemático y la inevitabilidad de los crashes — y resulta que ambas tienen la misma raíz.</p>
+
+                <h2>Por qué los crashes son inevitables</h2>
+
+                <p>Los modelos financieros estándar — desde Black-Scholes hasta el paseo aleatorio — asumen que las fluctuaciones de precios siguen una distribución normal: la campana de Gauss. Bajo esta hipótesis, los eventos extremos son fantásticamente improbables. Un movimiento de diez desviaciones estándar debería ocurrir una vez cada varios miles de millones de años. En la práctica, ocurre cada pocos años.</p>
+
+                <p>Benoit Mandelbrot documentó este fenómeno en 1963: las fluctuaciones financieras tienen <em>colas pesadas</em>. Los eventos extremos son mucho más frecuentes de lo que predice la campana de Gauss. Pero Mandelbrot describió el fenómeno sin explicar su causa. ¿Por qué las colas son pesadas?</p>
+
+                <p>En el marco Turing–Walras–Chaitin, la respuesta emerge naturalmente de la estructura computacional de la producción.</p>
+
+                <p>Los precios de los activos reflejan las expectativas sobre la capacidad productiva futura de las empresas. Esa capacidad depende de las tecnologías que las empresas conocen — sus programas, en el lenguaje del TWC. El precio cambia cuando una empresa descubre una tecnología mejor (el precio sube) o cuando una tecnología se vuelve obsoleta (el precio baja).</p>
+
+                <p>La clave está en la distribución de estos descubrimientos. No todos los descubrimientos son iguales. La inmensa mayoría son mejoras incrementales — un proceso un poco más eficiente, un producto ligeramente mejor. Estos generan fluctuaciones pequeñas. Pero ocasionalmente, alguien descubre algo radicalmente mejor: un programa en una región lejana del espacio de tecnologías que cambia las reglas del juego. El transistor. Internet. La inteligencia artificial.</p>
+
+                <p>Estos descubrimientos radicales son raros pero su impacto es desproporcionado, porque la combinación de un programa nuevo con el conocimiento existente genera retornos que crecen más rápido que cualquier función computable.</p>
+
+                <p>Las colas pesadas no son una anomalía. No son producto de la irracionalidad de los inversores, de manadas psicológicas, ni de burbujas especulativas. Son una consecuencia de la estructura combinatoria del espacio de tecnologías.</p>
+
+                <h2>La máquina de movimiento perpetuo</h2>
+
+                <p>Ahora viene la pregunta que realmente importa: ¿se puede construir un algoritmo que le gane al mercado de forma sistemática?</p>
+
+                <p>La respuesta corta es no, y la razón es la misma por la que no se puede construir una máquina de movimiento perpetuo.</p>
+
+                <p>Una máquina de movimiento perpetuo de segundo tipo es un dispositivo que convierte calor en trabajo con eficiencia del 100%, sin pérdidas. No viola la conservación de la energía (primer principio) — no crea energía de la nada. Pero viola el segundo principio: extrae trabajo útil de un sistema en equilibrio sin disipar nada. Carnot demostró que es imposible.</p>
+
+                <p><strong>Un algoritmo que le gane al mercado sistemáticamente es exactamente esto: una máquina de movimiento perpetuo de segundo tipo aplicada a la información.</strong></p>
+
+                <p>El argumento es el siguiente. Para ganarle al mercado, el algoritmo necesita predecir los movimientos de precios mejor que el resto del mercado. Los movimientos de precios reflejan descubrimientos tecnológicos — cambios en los costos de producción de las empresas. Predecir estos descubrimientos requiere anticipar qué programas van a resultar exitosos antes de que se ejecuten.</p>
+
+                <p>Pero anticipar qué programas haltan y producen resultados útiles es el problema del halting — el problema indecidible que Alan Turing demostró irresoluble en 1936. Si un algoritmo pudiera predecir los precios sistemáticamente, estaría implícitamente computando información sobre el espacio de programas que es fundamentalmente incomputable.</p>
+
+                <p>Esto es más fuerte que la hipótesis del mercado eficiente. La EMH dice que los precios incorporan la información <em>disponible</em>. El argumento computacional dice que la información relevante — la estructura del espacio de programas — no es meramente no disponible sino <em>incomputable</em>.</p>
+
+                <h2>Qué sí es posible</h2>
+
+                <p>Esto no dice que nadie puede ganarle al mercado nunca. Dice que nadie puede ganarle <em>sistemáticamente y sin límite</em>. La distinción es crucial.</p>
+
+                <p>Una firma que descubre un programa mejor tiene información transitoria que puede explotar. Sabe algo que el mercado aún no sabe — que el costo de producir cierto bien acaba de bajar. Esta ventaja es real y puede generar ganancias. Pero es temporal: cuando la firma empieza a producir y vender, el mercado observa el cambio en la oferta, el precio se ajusta, y la ventaja se disipa.</p>
+
+                <p>Un trader que identifica un patrón empírico puede explotarlo durante un tiempo. Pero el patrón refleja una regularidad en el proceso de exploración de las firmas. Cuando otros traders identifican el mismo patrón y lo explotan, sus operaciones alteran los precios y el patrón desaparece.</p>
+
+                <p>Lo que no puede existir es un algoritmo que genere ganancias positivas en expectativa para todo horizonte temporal, sin que la ganancia converja a cero.</p>
+
+                <h2>El calor residual de Wall Street</h2>
+
+                <p>Toda máquina térmica real produce calor residual — energía que se disipa sin convertirse en trabajo útil. Es el costo del segundo principio. No se puede eliminar; solo se puede minimizar hasta el límite de Carnot.</p>
+
+                <p>El mercado financiero tiene su propio calor residual: la volatilidad. La volatilidad no es ruido aleatorio sin significado. Es el costo informacional de la exploración tecnológica. Cada vez que una firma descubre un programa nuevo y entra al mercado con costos menores, el precio se perturba. La volatilidad agregada es la suma de estas perturbaciones — el ruido que genera el proceso de descubrimiento.</p>
+
+                <p>Y este ruido es irreducible por la misma razón que el calor residual de Carnot: eliminarlo requeriría predecir los descubrimientos, lo cual requeriría resolver un problema incomputable.</p>
+
+                <h2>La lección de Carnot para los mercados</h2>
+
+                <p>Sadi Carnot no demostró que las máquinas térmicas son inútiles. Demostró que tienen un límite de eficiencia, y que entender ese límite permite diseñar mejores máquinas. El ingeniero que acepta a Carnot no deja de construir motores — construye motores que operan más cerca del límite teórico.</p>
+
+                <p>La lección para los mercados financieros es análoga. No se puede construir una máquina de arbitraje perpetuo. Pero se puede entender la estructura de la ineficiencia — de dónde vienen las rentas algorítmicas, cómo se distribuyen los descubrimientos, por qué las colas son pesadas — y operar con esa comprensión.</p>
+
+                <p>El trader que entiende la estructura computacional del mercado no intenta construir una máquina de movimiento perpetuo. Entiende que las ganancias del trading son como el trabajo de una máquina térmica: posibles pero limitadas, transitorias y sujetas a un rendimiento máximo que no puede superarse.</p>
+
+                <p>Y entiende, sobre todo, que quien promete un algoritmo que le gana al mercado para siempre está prometiendo lo mismo que quien promete una máquina de movimiento perpetuo: algo que viola una ley de la naturaleza.</p>
+
+                <div class="article-footer">
+                    <p><em>Martín Nicolás Nardelli es investigador independiente en Reconquista, Santa Fe, Argentina. Su trabajo desarrolla el marco Turing–Walras–Chaitin (TWC), una teoría computacional de la economía. Contacto: martin_nardelli@hotmail.com</em></p>
+                </div>
+            </div>
+        </div>
+    </article>
+
+    <footer class="footer">
+        <div class="container">
+            <p>© 2026 Martín Nicolás Nardelli</p>
+        </div>
+    </footer>
+</body>
+</html>

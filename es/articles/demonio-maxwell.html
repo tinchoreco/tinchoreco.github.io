@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>El demonio de Maxwell y los límites del conocimiento económico | Martín Nardelli</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,400;0,600;1,400&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../../css/style.css">
+    <link rel="stylesheet" href="../../css/article.css">
+</head>
+<body>
+    <nav class="nav">
+        <div class="nav-container">
+            <a href="../index.html" class="nav-logo">MN</a>
+            <ul class="nav-links">
+                <li><a href="../index.html#investigacion">Investigación</a></li>
+                <li><a href="../index.html#papers">Papers</a></li>
+                <li><a href="../index.html#articulos">Artículos</a></li>
+                <li><a href="../index.html#contacto">Contacto</a></li>
+                <li class="lang-switch"><a href="../../articles/maxwell-demon.html">EN</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <article class="article">
+        <header class="article-header">
+            <div class="container">
+                <a href="../index.html#articulos" class="back-link">← Volver a artículos</a>
+                <h1 class="article-title">El demonio de Maxwell y los límites físicos del conocimiento económico</h1>
+                <div class="article-meta">
+                    <span class="article-date">Febrero 2026</span>
+                    <span class="article-reading">15 min de lectura</span>
+                </div>
+            </div>
+        </header>
+
+        <div class="article-content">
+            <div class="container">
+                <p class="article-lead">En 1867, James Clerk Maxwell imaginó un ser diminuto capaz de observar moléculas individuales en un gas y separar las rápidas de las lentas abriendo y cerrando una pequeña compuerta. Si tal criatura existiera, podría crear una diferencia de temperatura sin gastar energía — violando el segundo principio de la termodinámica.</p>
+
+                <p>Durante más de un siglo, los físicos más brillantes del mundo trabajaron para entender por qué el demonio no puede existir. La respuesta, que tardó cien años en cristalizar, resultó ser profundamente simple: <strong>la información tiene costo físico</strong>. Medir, procesar y borrar la información que el demonio necesita para operar disipa al menos tanta energía como la que pretende ahorrar.</p>
+
+                <p>Este resultado — formulado por Leo Szilard en 1929, refinado por Leon Brillouin en los años 50, y cerrado definitivamente por Rolf Landauer en 1961 y Charles Bennett en los años 80 — es uno de los más profundos de la física moderna. Establece un puente entre la termodinámica, la teoría de la información y la computación. Y tiene consecuencias que se extienden mucho más allá de la física, hasta el corazón de la teoría económica.</p>
+
+                <h2>Lo que Landauer demostró</h2>
+
+                <p>El principio de Landauer dice: borrar un bit de información en un sistema computacional requiere disipar al menos <em>kT ln 2</em> julios de energía, donde <em>k</em> es la constante de Boltzmann y <em>T</em> es la temperatura. Esto fue confirmado experimentalmente por Bérut y colaboradores en 2012, midiendo la disipación de energía al borrar un bit almacenado en una partícula coloidal.</p>
+
+                <p>La implicación es radical: la computación es un proceso físico con costos termodinámicos irreducibles. No es una abstracción matemática flotando en el éter platónico — es manipulación de materia y energía, sujeta a las mismas leyes que gobiernan los motores, las reacciones químicas y las estrellas.</p>
+
+                <p>Bennett extendió esta idea con el concepto de <em>profundidad lógica</em>: la cantidad de trabajo computacional — y por tanto de disipación termodinámica — que requiere el programa más eficiente para producir un resultado dado. Un objeto es "lógicamente profundo" si su representación más compacta requiere mucho cómputo para desplegarse. Un número aleatorio no es profundo (se genera trivialmente). Un cristal perfecto tampoco (es simple y regular). Pero un organismo vivo, un microprocesador, o una teoría científica son enormemente profundos: su estructura compacta codifica una cantidad inmensa de computación irreversible.</p>
+
+                <h2>El demonio del mercado eficiente</h2>
+
+                <p>Traslademos esto a la economía.</p>
+
+                <p>En el marco Turing–Walras–Chaitin que he desarrollado, las tecnologías de producción son programas de computadora — Turing machines que transforman insumos en productos. Cada bien tiene un costo de producción objetivo: su profundidad lógica, el mínimo trabajo computacional irreducible para producirlo. Y este costo es, por un teorema de la teoría de la computación, <strong>incomputable</strong>: ningún algoritmo puede calcular la profundidad lógica de un bien arbitrario.</p>
+
+                <p>Cada firma en la economía conoce algunos programas — sus propias tecnologías, descubiertas por exploración y experiencia. Pero ninguna firma sabe si su programa es el más eficiente, porque descubrirlo requeriría comparar con todos los programas posibles, lo cual es computacionalmente imposible. La diferencia entre lo que la mejor firma existente gasta y lo que es técnicamente posible — lo que llamo la <em>renta algorítmica</em> — es valor que se disipa porque el conocimiento óptimo no está disponible.</p>
+
+                <p>Ahora imaginemos un "demonio del mercado eficiente": un agente que conoce el programa óptimo para cada bien y lo asigna a cada firma. Este demonio eliminaría toda renta algorítmica y llevaría los precios al costo mínimo verdadero. Es el equivalente económico del demonio de Maxwell: un ser que usa información perfecta para eliminar ineficiencia.</p>
+
+                <p><strong>Y falla por exactamente la misma razón.</strong></p>
+
+                <p>Para conocer el programa óptimo para un bien <em>x</em>, el demonio necesitaría calcular la complejidad de Kolmogorov de <em>x</em> — la longitud del programa más corto que lo produce. Esto es un problema incomputable: no existe ningún algoritmo que lo resuelva en general. Pero no es solo computacionalmente imposible; es <em>termodinámicamente</em> imposible. Cada intento de verificar si un programa candidato es óptimo requiere ejecutar programas, comparar outputs, borrar resultados intermedios. Cada una de estas operaciones disipa energía según el principio de Landauer. El costo termodinámico de la búsqueda es al menos tan grande como la renta algorítmica que se pretende eliminar.</p>
+
+                <p>Esto no es una metáfora. Es una cadena deductiva rigurosamente establecida:</p>
+
+                <p>Primero: la producción es computación (las tecnologías son programas que ejecutan transformaciones físicas). Segundo: la computación es un proceso termodinámico (cada operación lógica disipa energía, por Landauer). Tercero: encontrar el programa óptimo es incomputable (por el teorema de la incomputabilidad de la complejidad de Kolmogorov). Cuarto: la incomputabilidad implica que cualquier búsqueda requiere explorar un espacio supercomputacionalmente grande (por el Teorema 5.3 del marco TWC). Quinto: cada paso de la exploración disipa energía irreversiblemente.</p>
+
+                <p>El demonio del mercado eficiente, como el demonio de Maxwell, necesita información cuyo costo de adquisición destruye la ventaja que pretendía crear. La renta algorítmica es el equivalente económico del segundo principio de la termodinámica: no se puede eliminar porque el conocimiento necesario para eliminarla tiene un costo termodinámico irreducible.</p>
+
+                <h2>El tradeoff exploración-explotación y la incertidumbre irreducible</h2>
+
+                <p>El demonio de Maxwell establece que no se puede eliminar la renta algorítmica. Pero hay un resultado adicional, igualmente derivado de la estructura computacional, que revela un tradeoff más fino al interior de la firma.</p>
+
+                <p>Toda firma enfrenta un dilema con recursos computacionales finitos. Puede dedicarlos a <em>explorar</em> — ejecutar programas candidatos para descubrir tecnologías más eficientes y reducir su costo de producción. O puede dedicarlos a <em>observar el mercado</em> — procesar señales de precios, estimar la competencia, reducir su incertidumbre sobre el valor de lo que produce. Ambas actividades compiten por los mismos recursos finitos.</p>
+
+                <p>Llamemos Δc a la brecha entre el costo de la firma y el costo técnicamente mínimo — su ignorancia tecnológica. Y Δv a la incertidumbre de la firma sobre el precio de mercado — su ignorancia comercial. Para reducir Δc, la firma necesita explorar: ejecutar programas, probar métodos, invertir en I+D. Para reducir Δv, la firma necesita observar: participar en el mercado, recoger datos de transacciones, estimar la competencia.</p>
+
+                <p>Pero aquí interviene una retroalimentación crucial: la volatilidad del mercado — el ruido en las señales de precios — es generada precisamente por la exploración de <em>todas</em> las firmas. Cada vez que una firma descubre un programa mejor e ingresa al mercado con costos menores, el precio se perturba. La exploración tecnológica del sistema genera el ruido que dificulta la observación del sistema.</p>
+
+                <p>El resultado es una cota inferior estrictamente positiva:</p>
+
+                <p style="text-align: center; font-family: var(--font-mono);"><strong>Δc · Δv ≥ Γ(n, F, δₙ) > 0</strong></p>
+
+                <p>Esta cota es creciente en la profundidad lógica del bien (bienes más complejos tienen mayor incertidumbre irreducible), decreciente en la densidad algorítmica (bienes con muchas rutas de producción eficientes son más fáciles de dominar), y — crucialmente — no tiende a cero cuando los recursos crecen, porque la exploración agregada alimenta la volatilidad que impide la observación precisa.</p>
+
+                <h2>Tres imposibilidades y un principio</h2>
+
+                <p>Lo que emerge es una trinidad de imposibilidades conectadas por un principio unificador.</p>
+
+                <p><strong>Maxwell</strong>: no se puede violar el segundo principio porque la información necesaria para hacerlo cuesta al menos tanta entropía como la que se pretende reducir.</p>
+
+                <p><strong>Turing</strong>: no se puede calcular la complejidad de Kolmogorov de un string arbitrario — no existe algoritmo general para encontrar la descripción más corta de un objeto.</p>
+
+                <p><strong>TWC</strong>: no se puede eliminar la renta algorítmica de un mercado porque hacerlo requiere resolver un problema computacionalmente indecidible cuya exploración tiene costo termodinámico irreducible.</p>
+
+                <p>Las tres son manifestaciones del mismo principio: <strong>la información sobre la estructura del mundo tiene un costo físico irreductible, y los límites de lo que se puede conocer son límites de lo que se puede computar, que son límites de lo que la materia puede hacer</strong>.</p>
+
+                <h2>Lo que esto significa para la política económica</h2>
+
+                <p>Las consecuencias prácticas de estos límites son directas.</p>
+
+                <p>Si la renta algorítmica tiene un piso termodinámico — si no se puede eliminar ni en principio — entonces cualquier política que prometa "mercados perfectamente eficientes" o "asignación óptima de recursos" está prometiendo violar una ley de la física. No se trata de que los gobiernos sean incompetentes o que los reguladores estén capturados. Se trata de que la optimización completa requiere información que tiene un costo físico irreducible de adquisición.</p>
+
+                <p>Hay una consecuencia directa para la política antimonopolio. Fragmentar empresas que han acumulado conocimiento tecnológico — romper sus repositorios de programas — no "restaura la competencia". Destruye retornos supercomputacionales a la combinación de conocimiento, elevando los costos de producción y aumentando la renta algorítmica total del sistema. Es como intentar enfriar un gas separando las moléculas: lo que conseguís no es orden sino más entropía.</p>
+
+                <h2>Conclusión: la física de los mercados</h2>
+
+                <p>La economía no es una ciencia social que ocasionalmente toma prestadas metáforas de la física. Es — literalmente, no figurativamente — un proceso termodinámico. La producción crea estructura a costa de disipar energía. La exploración tecnológica es búsqueda computacional con costo de Landauer. Los límites del conocimiento económico son los límites de lo que la materia puede computar.</p>
+
+                <p>Maxwell, Landauer, Bennett, Turing y Chaitin establecieron los fundamentos físicos del conocimiento. Lo que el marco TWC muestra es que estos fundamentos se aplican directamente a la economía — no por analogía sino por deducción. El mercado no se <em>parece</em> a un sistema termodinámico. Es un sistema termodinámico. Y sus límites no son institucionales, culturales ni políticos. Son físicos.</p>
+
+                <p>El demonio de Maxwell no existe. El planificador omnisciente tampoco. Y por exactamente la misma razón.</p>
+
+                <div class="article-footer">
+                    <p><em>Martín Nicolás Nardelli es investigador independiente en Reconquista, Santa Fe, Argentina. Su trabajo desarrolla el marco Turing–Walras–Chaitin (TWC), una teoría computacional de la economía. Contacto: martin_nardelli@hotmail.com</em></p>
+                </div>
+            </div>
+        </div>
+    </article>
+
+    <footer class="footer">
+        <div class="container">
+            <p>© 2026 Martín Nicolás Nardelli</p>
+        </div>
+    </footer>
+</body>
+</html>

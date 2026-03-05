@@ -154,6 +154,20 @@ a:hover {
     color: var(--color-accent);
 }
 
+.lang-switch a {
+    padding: 0.3rem 0.6rem;
+    border: 1px solid var(--color-border);
+    font-family: var(--font-mono);
+    font-size: 0.8rem;
+    transition: all 0.2s ease;
+}
+
+.lang-switch a:hover {
+    border-color: var(--color-accent);
+    background: var(--color-accent);
+    color: white;
+}
+
 /* Hero */
 .hero {
     min-height: 100vh;

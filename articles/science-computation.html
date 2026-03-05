@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Science as Computation | Martín Nardelli</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,400;0,600;1,400&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/article.css">
+</head>
+<body>
+    <nav class="nav">
+        <div class="nav-container">
+            <a href="../index.html" class="nav-logo">MN</a>
+            <ul class="nav-links">
+                <li><a href="../index.html#research">Research</a></li>
+                <li><a href="../index.html#papers">Papers</a></li>
+                <li><a href="../index.html#articles">Articles</a></li>
+                <li><a href="../index.html#contact">Contact</a></li>
+                <li class="lang-switch"><a href="../es/articles/ciencia-computacion.html">ES</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <article class="article">
+        <header class="article-header">
+            <div class="container">
+                <a href="../index.html#articles" class="back-link">← Back to articles</a>
+                <h1 class="article-title">Science as Computation: Popper, Kuhn, and the Logical Depth of Knowledge</h1>
+                <div class="article-meta">
+                    <span class="article-date">February 2026</span>
+                    <span class="article-reading">17 min read</span>
+                </div>
+            </div>
+        </header>
+
+        <div class="article-content">
+            <div class="container">
+                <p class="article-lead">In 1934, Karl Popper proposed a criterion to distinguish science from pseudoscience: a theory is scientific if it is <em>falsifiable</em>. In 1962, Thomas Kuhn described how science actually advances: not through gradual accumulation of truths but through long periods of routine work interrupted by violent revolutions. Popper and Kuhn are usually presented as rivals. But neither could fully explain <em>why</em> science has the structure it has.</p>
+
+                <p>The answer lies in a concept neither had at their disposal: logical depth, defined by mathematician Charles Bennett in 1988. And the key to understanding it is an analogy that turns out to be much more than an analogy: science is a production process. Theories are technologies. And the laws governing scientific discovery are the same as those governing economic innovation.</p>
+
+                <h2>Theories as Programs</h2>
+
+                <p>A scientific theory is, in essence, a computer program. It takes data as input and produces predictions as output. Newton's laws are a program that takes celestial bodies' initial positions and velocities and produces their future trajectories. Quantum mechanics is a program that takes an atomic system's configuration and produces measurement probabilities.</p>
+
+                <p>This is not a metaphor. It is a formal equivalence. Any theory that can be formulated with sufficient precision to make predictions can be written as a program for a Turing machine.</p>
+
+                <p>And once theories are programs, two concepts from information theory become directly applicable.</p>
+
+                <p>The first is <em>Kolmogorov complexity</em>: the length of the shortest program that produces a given output. A good scientific theory has low Kolmogorov complexity relative to the data it explains—it is a compact description that generates an enormous number of predictions.</p>
+
+                <p>The second concept is Bennett's <em>logical depth</em>: the execution time of the shortest program. A program can be short—easy to write once you know it—but deep: it took enormously long to discover.</p>
+
+                <h2>Popper as Compression Criterion</h2>
+
+                <p>Viewed from information theory, Popper's criterion is reformulated precisely: a theory is scientific if it compresses data. That is, if the description of theory T plus the residual data it doesn't predict is shorter than the raw data.</p>
+
+                <p>If the theory doesn't compress—if its description is as long as the data itself—then it's not explaining anything. It's redescribing. Astrology is not pseudoscience because it's "unverifiable" in some vague sense; it's pseudoscience because it doesn't compress: you need an ad hoc rule for each prediction.</p>
+
+                <p>Newtonian mechanics, by contrast, compresses spectacularly: three laws of motion and one law of gravitation generate planetary orbits, projectile trajectories, tides, galaxy shapes.</p>
+
+                <p>But Popper could never explain <em>why</em> finding theories that compress is so difficult. If Newtonian mechanics is so short to formulate, why did humanity take thousands of years to find it?</p>
+
+                <p>Logical depth gives the answer. Newton's laws are a <em>short</em> but <em>deep</em> program. Their Kolmogorov complexity is low (written in a paragraph) but their logical depth is enormous.</p>
+
+                <p><strong>Falsifiability selects for compression. Logical depth explains why selection is costly.</strong></p>
+
+                <h2>Kuhn as Topology of Program Space</h2>
+
+                <p>If Popper is understood as a compression criterion, Kuhn is understood as a description of the <em>topology</em> of possible program space.</p>
+
+                <p>Imagine all possible programs—all theories that could be formulated—as points in an enormous space. Some points are close (programs differing in few bits) and others far (radically different programs).</p>
+
+                <p>Kuhn's "normal science" is <em>local</em> exploration of this space: given a paradigm—a program T—scientists search for nearby variants. They refine parameters, extend the model to new phenomena, solve puzzles within the established framework. This is computationally cheap because the search space is small.</p>
+
+                <p>Anomalies—data the paradigm doesn't predict—accumulate slowly. They are residual data that no local variant of the program manages to compress.</p>
+
+                <p>When anomalies accumulate enough, normal science enters crisis. And here the topology of program space becomes crucial: the solution is not a nearby variant of the previous paradigm. It is a program in a <em>distant</em> region of space—a theory structured so differently it cannot be obtained by incremental modification.</p>
+
+                <p>This is a <em>scientific revolution</em> in Kuhn's sense: a non-local jump in program space. And logical depth explains why revolutions are so rare: non-local jumps are exponentially more costly than local search.</p>
+
+                <h2>Incommensurability as Algorithmic Distance</h2>
+
+                <p>Kuhn's most controversial concept is <em>incommensurability</em>: the idea that successive paradigms are partially incomparable. This claim was ridiculed as irrationalism.</p>
+
+                <p>But computation theory gives it precise content. Two programs distant in algorithmic space can produce partially overlapping outputs but be structured so differently that no efficient translation exists between them.</p>
+
+                <p><strong>Incommensurability is not irrationality. It is computational translation cost.</strong></p>
+
+                <h2>The Isomorphism with Economics</h2>
+
+                <p>And here is where the pieces fit into something larger.</p>
+
+                <p>In the Turing–Walras–Chaitin framework, production technologies are programs, firms are program repositories, and innovation is exploration of program space. The structure is exactly the same:</p>
+
+                <p><strong>Incremental innovation</strong> is normal science—local exploration of program space, marginal improvements to known processes.</p>
+
+                <p><strong>Disruptive innovation</strong> is scientific revolution—a non-local jump to a region of program space that produces radically more with radically less.</p>
+
+                <p><strong>Industrial clusters</strong> are scientific communities—groups of firms sharing a neighborhood in program space.</p>
+
+                <p>And <strong>algorithmic rents</strong> are the economic equivalent of scientific priority: whoever discovers first gains an advantage that doesn't easily dissipate.</p>
+
+                <h2>Conclusion: A Single Process</h2>
+
+                <p>Science and economics, Popper and Smith, Kuhn and Schumpeter—are instances of the same phenomenon: boundedly rational agents exploring an immeasurably vast program space, where short and deep programs are enormously valuable and enormously difficult to find.</p>
+
+                <p>Popper's falsifiability is the compression criterion that separates useful from useless programs. Kuhn's normal science is local exploration extracting value from an algorithmic neighborhood. Revolutions are non-local jumps opening new regions of space. Incommensurability is the algorithmic distance that makes jumps costly and comparisons difficult.</p>
+
+                <p>And the market—the mechanism coordinating production and exchange—is the economic analog of the scientific community: a self-organized system exploring program space in a decentralized way, discovering solutions no individual agent could find, operating in a regime where complete knowledge is not just unattainable but <em>proven and rigorously incomputable</em>.</p>
+
+                <div class="article-footer">
+                    <p><em>Martín Nicolás Nardelli is an independent researcher in Reconquista, Santa Fe, Argentina. His work develops the Turing–Walras–Chaitin (TWC) framework, a computational theory of economics. Contact: martin_nardelli@hotmail.com</em></p>
+                </div>
+            </div>
+        </div>
+    </article>
+
+    <footer class="footer">
+        <div class="container">
+            <p>© 2026 Martín Nicolás Nardelli</p>
+        </div>
+    </footer>
+</body>
+</html>
